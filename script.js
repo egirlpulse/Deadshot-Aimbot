@@ -1,7 +1,7 @@
 (function() {
     'use strict';
  
-    let aimbotEnabled = false;
+    let aimbotEnabled = true;
     let uiVisible = true;
     let enemies = [];
     const crosshair = document.querySelector('.game-crosshair'); // Assume we know this is static
